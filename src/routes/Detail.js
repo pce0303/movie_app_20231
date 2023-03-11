@@ -11,7 +11,7 @@ class Detail extends React.Component {
     render() {
         const { location } = this.props;
         if (location.state) {
-        return <span>{location.state.title}</span>; //제목 불러오기
+        return <span>{location.state.title}</span>;
         } else {
             return null;
         }
